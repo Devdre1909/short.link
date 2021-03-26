@@ -1,0 +1,29 @@
+{
+  "name": "short.ly",
+  "version": "1.0.0",
+  "description": "A URL shortern built with TypeScript",
+  "main": "dist/server.js",
+  "author": "Adegoke Temitope",
+  "license": "MIT",
+  "scripts": {
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.2"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.11",
+    "@types/mongoose": "^5.10.4",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}
